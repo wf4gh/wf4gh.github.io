@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1183px" height="241px" viewBox="0 0 1183 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>s2_heap_scan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DE6---Optimizing-Postgres" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M5" transform="translate(-35.000000, -80.000000)">
+            <g id="s2_heap_scan" transform="translate(36.000000, 76.000000)">
+                <g id="Database" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="161" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="181" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="141" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="121" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="101" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="81" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" fill-opacity="0.1" fill="#111111" stroke-linecap="square" x="0" y="61" width="310" height="20"></rect>
+                    <path d="M33.5,61.5 L33.5,200.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M116.5,61.5 L116.5,200.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M226.5,61.5 L226.5,200.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="10" y="153">…</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="260" y="153">…</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="70" y="153">…</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="165" y="153">…</tspan>
+                    </text>
+                    <g id="Row-Text" transform="translate(5.000000, 165.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#FF5A5A" font-weight="bold">
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="34" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="317">
+                            <tspan x="0" y="10">317</tspan>
+                        </text>
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(5.000000, 185.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#FF5A5A" font-weight="bold">
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="1990-01-01">
+                            <tspan x="34" y="10">1990-01-01</tspan>
+                        </text>
+                        <text id="514">
+                            <tspan x="0" y="10">514</tspan>
+                        </text>
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(12.000000, 125.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="AK-500">
+                            <tspan x="137" y="10">AK-500</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="27" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="3">
+                            <tspan x="0" y="10">3</tspan>
+                        </text>
+                        <text id="AB">
+                            <tspan x="248" y="10">AB</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(12.000000, 105.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="AK-500">
+                            <tspan x="137" y="10">AK-500</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="27" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="2">
+                            <tspan x="0" y="10">2</tspan>
+                        </text>
+                        <text id="AB">
+                            <tspan x="248" y="10">AB</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(12.000000, 85.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="AK-500">
+                            <tspan x="137" y="10">AK-500</tspan>
+                        </text>
+                        <text id="AB">
+                            <tspan x="248" y="10">AB</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="27" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="1">
+                            <tspan x="0" y="10">1</tspan>
+                        </text>
+                    </g>
+                    <g id="Headers" transform="translate(12.000000, 63.000000)" font-size="12" font-family="HelveticaNeue-Bold, Helvetica Neue" fill="#333333" font-weight="bold">
+                        <text id="year">
+                            <tspan x="50" y="12">year</tspan>
+                        </text>
+                        <text id="coc_number">
+                            <tspan x="122" y="12">coc_number</tspan>
+                        </text>
+                        <text id="state">
+                            <tspan x="242" y="12">state</tspan>
+                        </text>
+                        <text id="id">
+                            <tspan x="0" y="12">id</tspan>
+                        </text>
+                    </g>
+                    <text id="Scan-full-table-for" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                        <tspan x="76.08" y="15">Scan full table for rows</tspan>
+                        <tspan x="90.528" y="33">where </tspan>
+                        <tspan x="138.224" y="33" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">state = ‘CA’</tspan>
+                    </text>
+                </g>
+                <g id="Database" transform="translate(461.000000, 2.000000)">
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="101" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="121" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="81" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" fill-opacity="0.1" fill="#111111" stroke-linecap="square" x="0" y="61" width="310" height="20"></rect>
+                    <path d="M33.5,61.5 L33.5,140.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M116.5,61.5 L116.5,140.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M226.5,61.5 L226.5,140.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="10" y="133">…</tspan>
+                    </text>
+                    <text id="CA" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="260" y="135">CA</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="70" y="133">…</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="165" y="133">…</tspan>
+                    </text>
+                    <g id="Row-Text" transform="translate(5.000000, 85.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="34" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="317">
+                            <tspan x="0" y="10">317</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(5.000000, 105.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="1990-01-01">
+                            <tspan x="34" y="10">1990-01-01</tspan>
+                        </text>
+                        <text id="514">
+                            <tspan x="0" y="10">514</tspan>
+                        </text>
+                    </g>
+                    <g id="Headers" transform="translate(12.000000, 63.000000)" font-size="12" font-family="HelveticaNeue-Bold, Helvetica Neue" fill="#333333" font-weight="bold">
+                        <text id="year">
+                            <tspan x="50" y="12">year</tspan>
+                        </text>
+                        <text id="coc_number">
+                            <tspan x="122" y="12">coc_number</tspan>
+                        </text>
+                        <text id="state">
+                            <tspan x="242" y="12">state</tspan>
+                        </text>
+                        <text id="id">
+                            <tspan x="0" y="12">id</tspan>
+                        </text>
+                    </g>
+                    <text id="Create-a-temporary-i" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                        <tspan x="56.984" y="15">Create a temporary index to</tspan>
+                        <tspan x="106.184" y="33">store the rows</tspan>
+                    </text>
+                </g>
+                <g id="Database" transform="translate(871.000000, 0.000000)">
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="103" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="123" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" stroke-linecap="square" x="0" y="83" width="310" height="20"></rect>
+                    <rect id="Rectangle-4" stroke="#000000" fill-opacity="0.1" fill="#111111" stroke-linecap="square" x="0" y="63" width="310" height="20"></rect>
+                    <path d="M33.5,63.5 L33.5,142.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M116.5,63.5 L116.5,142.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M226.5,63.5 L226.5,142.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="10" y="135">…</tspan>
+                    </text>
+                    <text id="CA" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#333333">
+                        <tspan x="260" y="137">CA</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="70" y="135">…</tspan>
+                    </text>
+                    <text id="…" font-family="Helvetica" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="165" y="135">…</tspan>
+                    </text>
+                    <g id="Row-Text" transform="translate(5.000000, 87.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#00E915" font-weight="bold">
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="2007-01-01">
+                            <tspan x="34" y="10">2007-01-01</tspan>
+                        </text>
+                        <text id="317">
+                            <tspan x="0" y="10">317</tspan>
+                        </text>
+                    </g>
+                    <g id="Row-Text" transform="translate(5.000000, 107.000000)" font-size="12" font-family="CourierNewPS-BoldMT, Courier New" fill="#333333" font-weight="bold">
+                        <text id="CA">
+                            <tspan x="255" y="10">CA</tspan>
+                        </text>
+                        <text id="CA-504">
+                            <tspan x="144" y="10">CA-504</tspan>
+                        </text>
+                        <text id="1990-01-01">
+                            <tspan x="34" y="10">1990-01-01</tspan>
+                        </text>
+                        <text id="514">
+                            <tspan x="0" y="10">514</tspan>
+                        </text>
+                    </g>
+                    <g id="Headers" transform="translate(12.000000, 65.000000)" font-size="12" font-family="HelveticaNeue-Bold, Helvetica Neue" fill="#333333" font-weight="bold">
+                        <text id="year">
+                            <tspan x="50" y="12">year</tspan>
+                        </text>
+                        <text id="coc_number">
+                            <tspan x="122" y="12">coc_number</tspan>
+                        </text>
+                        <text id="state">
+                            <tspan x="242" y="12">state</tspan>
+                        </text>
+                        <text id="id">
+                            <tspan x="0" y="12">id</tspan>
+                        </text>
+                    </g>
+                    <text id="Select-all-rows-with" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                        <tspan x="42.77" y="15">Select all rows with </tspan>
+                        <tspan x="184.962" y="15" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">year</tspan>
+                        <tspan x="217.858" y="15" font-size="18"> </tspan>
+                        <tspan x="222.862" y="15">greater</tspan>
+                        <tspan x="97.968" y="36">than </tspan>
+                        <tspan x="133.84" y="36" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">1991-01-01</tspan>
+                    </text>
+                    <g id="Binary-Search-Text" transform="translate(97.000000, 153.000000)" font-size="14" font-family="HelveticaNeue, Helvetica Neue" fill="#000000" font-weight="normal">
+                        <text id="Sequential-Scan-O(n)">
+                            <tspan x="0.047" y="13">Sequential Scan</tspan>
+                            <tspan x="38.162" y="29">O(n)</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Binary-Search-Text" transform="translate(109.000000, 213.000000)" font-size="14" font-family="HelveticaNeue, Helvetica Neue" fill="#000000" font-weight="normal">
+                    <text id="Binary-Search-O(log">
+                        <tspan x="0.313" y="13">Binary Search</tspan>
+                        <tspan x="19.626" y="29">O(log n)</tspan>
+                    </text>
+                </g>
+                <g id="Join-Exaplanation" transform="translate(317.000000, 26.000000)">
+                    <path d="M3.5,148.5 L55.5,148.5" id="Line-3" stroke="#000000" stroke-linecap="square"></path>
+                    <path id="Line-3-decoration-1" d="M3.5,145.5 L3.5,151.5" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M55.5,148.5 L55.5,42.5" id="Line-4" stroke="#000000" stroke-linecap="square"></path>
+                    <path d="M55.5,42.5 L124.5,42.5" id="Line-5" stroke="#000000" fill="#000000" stroke-linecap="square"></path>
+                    <path id="Line-5-decoration-1" d="M124.5,42.5 L113.7,39.5 L113.7,45.5 L124.5,42.5 Z" stroke="#000000" fill="#000000" stroke-linecap="square"></path>
+                    <path d="M467.5,76.5 L536.5,76.5" id="Line-5" stroke="#000000" fill="#000000" stroke-linecap="square"></path>
+                    <path id="Line-5-decoration-1" d="M536.5,76.5 L525.7,73.5 L525.7,79.5 L536.5,76.5 Z" stroke="#000000" fill="#000000" stroke-linecap="square"></path>
+                    <text id="Collect-rows-with-CA" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="9.719" y="13">Collect rows with </tspan>
+                        <tspan x="53.518" y="29" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">CA</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1120px" height="536px" viewBox="0 0 1120 536" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>s7_disk_space_graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M100,42 C101.221869,44 110.555202,45 128,45 C154.167197,45 160.33484,40.6716715 182.5,40 C204.66516,39.3283285 207.085006,44.5127175 229.5,45 C251.914994,45.4872825 274.595745,45.433073 286,45 C297.404255,44.566927 307.107021,40.5938845 317.5,40 C327.892979,39.4061155 333.304506,41.4743598 345,42 C352.796996,42.3504268 358.463663,42.3504268 362,42 L362,217 L100,217 L100,42 Z" id="path-1"></path>
+        <path d="M100,141.903791 C101.221869,142.762033 110.555202,143.191155 128,143.191155 C154.167197,143.191155 160.33484,141.333777 182.5,141.045549 C204.66516,140.75732 207.085006,142.982051 229.5,143.191155 C251.914994,143.400258 274.595745,143.376995 286,143.191155 C297.404255,143.005314 307.107021,141.300397 317.5,141.045549 C327.892979,140.7907 333.304506,141.678228 345,141.903791 C352.796996,142.054167 358.463663,142.054167 362,141.903791 L362,217 L100,217 L100,141.903791 Z" id="path-2"></path>
+        <path d="M100,42 C101.221869,44 110.555202,45 128,45 C154.167197,45 160.33484,40.6716715 182.5,40 C204.66516,39.3283285 207.085006,44.5127175 229.5,45 C251.914994,45.4872825 274.595745,45.433073 286,45 C297.404255,44.566927 307.107021,40.5938845 317.5,40 C327.892979,39.4061155 333.304506,41.4743598 345,42 C352.796996,42.3504268 358.463663,42.3504268 362,42 L362,217 L100,217 L100,42 Z" id="path-3"></path>
+    </defs>
+    <g id="DE6---Optimizing-Postgres" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M4" transform="translate(-20.000000, -698.000000)">
+            <g id="s7_disk_space_graph" transform="translate(20.000000, 698.000000)">
+                <g id="Disk-space-graph" transform="translate(0.000000, 127.000000)">
+                    <g id="Rectangle-6">
+                        <use fill-opacity="0.1" fill="#FF9C00" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#FF8C00" stroke-width="1" d="M100.5,43.0678026 L100.5,216.5 L361.5,216.5 L361.5,42.5477913 C357.91094,42.850043 352.406741,42.833392 344.977551,42.4994958 C341.296353,42.3340487 338.316674,42.0442609 334.045863,41.5022345 C333.615744,41.4476463 332.006586,41.2408947 331.631473,41.1932526 C330.710748,41.0763142 329.983792,40.9873589 329.282031,40.9069637 C324.976122,40.4136706 321.58764,40.2672363 317.528525,40.4991857 C314.820097,40.653953 312.037398,41.041059 308.711928,41.6830707 C307.05437,42.0030773 306.062142,42.2143039 302.594684,42.9705923 C294.878182,44.6536416 290.946293,45.3125265 286.018974,45.4996399 C274.084634,45.9528426 251.050733,45.9686123 229.489133,45.4998819 C221.050021,45.3164229 215.80166,44.6197653 207.848183,42.9779833 C207.603592,42.927494 206.117986,42.6194102 205.689029,42.5311384 C197.283552,40.8014411 191.833117,40.2174078 182.515145,40.4997706 C174.288323,40.7490682 169.112553,41.3340336 159.34465,42.8552698 C159.03913,42.9028609 159.03913,42.9028609 158.733467,42.9504801 C146.584344,44.8429147 139.873851,45.5 128,45.5 C112.512153,45.5 103.479297,44.7462504 100.5,43.0678026 Z"></path>
+                    </g>
+                    <path d="M100.5,0.5 L100.5,215.68829" id="Line-4" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="time" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="336" y="235">time</tspan>
+                    </text>
+                    <path d="M100.5,216.5 L364.5,216.5" id="Line-5" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="free-disk-space-(GB)" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="0.047" y="15">free disk space</tspan>
+                        <tspan x="33.766" y="31">(GB)</tspan>
+                    </text>
+                    <path d="M100.5,23.5 L360.5,23.5" id="Line-6" stroke="#FF0000" stroke-linecap="square" stroke-dasharray="1,1,9"></path>
+                    <text id="max" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="366.144" y="28">max</tspan>
+                    </text>
+                </g>
+                <g id="Disk-space-graph" transform="translate(727.000000, 0.000000)">
+                    <g id="Rectangle-6">
+                        <use fill-opacity="0.1" fill="#008D0A" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#008D0A" stroke-width="1" d="M100.5,142.623399 L100.5,216.5 L361.5,216.5 L361.5,142.423864 C357.927061,142.553916 352.425303,142.547091 344.990359,142.403698 C341.318173,142.332875 338.345485,142.208813 334.081625,141.976596 C333.651789,141.953187 332.042648,141.864466 331.66726,141.844007 C330.74549,141.793769 330.017471,141.755541 329.314389,141.720977 C324.993494,141.508557 321.589219,141.445426 317.512257,141.545398 C314.789641,141.61216 311.99515,141.77898 308.658431,142.055412 C306.997844,142.192985 306.004587,142.283721 302.534728,142.608485 C294.83362,143.329276 290.913849,143.611146 286.008147,143.691088 C274.080326,143.885461 251.051731,143.892227 229.495336,143.691133 C221.075597,143.612588 215.843363,143.314556 207.905146,142.611384 C207.660756,142.589736 206.175036,142.45752 205.745827,142.419619 C197.320544,141.67562 191.848854,141.424022 182.506501,141.545506 C174.26553,141.652669 169.079503,141.904188 159.301049,142.557688 C158.99551,142.578111 158.99551,142.578111 158.689858,142.598545 C146.553867,143.409751 139.856833,143.691155 128,143.691155 C112.310553,143.691155 103.312767,143.360897 100.5,142.623399 Z"></path>
+                    </g>
+                    <path d="M100.5,0.5 L100.5,215.68829" id="Line-4" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="time" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="336" y="235">time</tspan>
+                    </text>
+                    <path d="M100.5,216.5 L364.5,216.5" id="Line-5" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="free-disk-space-(GB)" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="0.047" y="15">free disk space</tspan>
+                        <tspan x="33.766" y="31">(GB)</tspan>
+                    </text>
+                    <path d="M100.5,23.5 L360.5,23.5" id="Line-6" stroke="#FF0000" stroke-linecap="square" stroke-dasharray="1,1,9"></path>
+                    <text id="max" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="366.144" y="28">max</tspan>
+                    </text>
+                </g>
+                <g id="Disk-space-graph" transform="translate(727.000000, 300.000000)">
+                    <g id="Rectangle-6">
+                        <use fill-opacity="0.1" fill="#FF9C00" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#FF8C00" stroke-width="1" d="M100.5,43.0678026 L100.5,216.5 L361.5,216.5 L361.5,42.5477913 C357.91094,42.850043 352.406741,42.833392 344.977551,42.4994958 C341.296353,42.3340487 338.316674,42.0442609 334.045863,41.5022345 C333.615744,41.4476463 332.006586,41.2408947 331.631473,41.1932526 C330.710748,41.0763142 329.983792,40.9873589 329.282031,40.9069637 C324.976122,40.4136706 321.58764,40.2672363 317.528525,40.4991857 C314.820097,40.653953 312.037398,41.041059 308.711928,41.6830707 C307.05437,42.0030773 306.062142,42.2143039 302.594684,42.9705923 C294.878182,44.6536416 290.946293,45.3125265 286.018974,45.4996399 C274.084634,45.9528426 251.050733,45.9686123 229.489133,45.4998819 C221.050021,45.3164229 215.80166,44.6197653 207.848183,42.9779833 C207.603592,42.927494 206.117986,42.6194102 205.689029,42.5311384 C197.283552,40.8014411 191.833117,40.2174078 182.515145,40.4997706 C174.288323,40.7490682 169.112553,41.3340336 159.34465,42.8552698 C159.03913,42.9028609 159.03913,42.9028609 158.733467,42.9504801 C146.584344,44.8429147 139.873851,45.5 128,45.5 C112.512153,45.5 103.479297,44.7462504 100.5,43.0678026 Z"></path>
+                    </g>
+                    <path d="M100.5,0.5 L100.5,215.68829" id="Line-4" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="time" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="336" y="235">time</tspan>
+                    </text>
+                    <path d="M100.5,216.5 L364.5,216.5" id="Line-5" stroke="#000000" stroke-linecap="square"></path>
+                    <text id="free-disk-space-(GB)" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="0.047" y="15">free disk space</tspan>
+                        <tspan x="33.766" y="31">(GB)</tspan>
+                    </text>
+                    <path d="M100.5,23.5 L360.5,23.5" id="Line-6" stroke="#FF0000" stroke-linecap="square" stroke-dasharray="1,1,9"></path>
+                    <text id="max" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="366.144" y="28">max</tspan>
+                    </text>
+                </g>
+                <path d="M414.5,221.5 L738.5,146.5" id="Line-7" stroke="#000000" stroke-linecap="square"></path>
+                <path id="Line-7-decoration-1" d="M728.654774,151.858314 L738.5,146.5 L727.301665,146.012881" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M414.5,316.5 L735.5,419.5" id="Line-8" stroke="#000000" stroke-linecap="square"></path>
+                <path id="Line-8-decoration-1" d="M724.299839,419.056835 L735.5,419.5 L726.133013,413.343738" stroke="#000000" stroke-linecap="square"></path>
+                <text id="VACUUM-homeless_by_c" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="443" y="454">VACUUM homeless_by_coc</tspan>
+                </text>
+                <text id="VACUUM-FULL-homeless" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="411" y="102">VACUUM FULL homeless_by_coc</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
